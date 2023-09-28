@@ -1,0 +1,22 @@
+.left-side-banner{
+    width:40vw;
+    height:100vh;
+    background-image: url('img/cole-keister-nfxIvG2B62I-unsplash.jpg');
+    background-size: cover;
+}   
+
+body{
+    display: flex;
+    margin: 0px;
+}
+
+.logo{
+    
+}
+
+.left-side-banner>.citation{
+    color: aliceblue;
+    position: relative;
+    top: 97%;
+    left:10px;
+}
