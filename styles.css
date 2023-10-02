@@ -1,5 +1,5 @@
 .left-side-banner{
-    width:40vw;
+    width:50vw;
     height:100vh;
     background-image: url('img/cole-keister-nfxIvG2B62I-unsplash.jpg');
     background-size: cover;
@@ -23,7 +23,7 @@ body{
     font-size: larger;
     margin-bottom: 35%;
     background-color: rgba(0, 0, 0, .75);
-    width: 40vw;
+    width: 50vw;
 }
 
 .logo>.grapes-img{
@@ -42,5 +42,31 @@ body{
     display: flex;
     flex-direction: column;
     color:aliceblue;
-    background-color:black;
+    background-color:black; 
+    padding: 30px;
+    justify-content: center;
+    gap: 30px;
+    width: auto;
+    font-size: large;
+}
+
+button{
+    width: 13vw;
+    height: 5vh;
+    color: #5ab286; 
+    border: 2px solid #5ab286;
+    border-radius: 10px;
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:#5ab286;
+    color: black;
+}
+
+.Login{
+    color: #5ab286;
+    font-weight: bold;
 }
